@@ -1,0 +1,68 @@
+/*ESTILOS PARA EL CONTEDOR DEL RELOJ*/
+ .bgimg-1{
+  position: relative;
+  opacity: 0.80;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.img-fondo{
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  min-height: 100%;
+  border-radius: none;
+  background-position: center;
+  width: 100%; 
+  height: 100%;
+
+}
+
+/*contenedor del reloj*/
+.jcgmt-container {
+    float:left;
+    padding: 3px;
+    height: 100%;
+    width: 100%;
+}
+
+/*configuracion de texto superior PAIS*/
+.jcgmt-container .jcgmt-lbl {
+    font-size:20px;
+    color: blue;
+    line-height: 22px;
+    /*background: url(../images/jcgmt-clock_label.png) no-repeat;*/
+    text-align: center;
+    padding-bottom: 5px;
+    width: 120px;
+    margin: 0 auto;
+}
+.jcgmt-clockHolder {
+    width:100px; 
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+.jcgmt-sec,
+.jcgmt-min,
+.jcgmt-hour {
+    display:block;
+    position:absolute;
+}
+
+.jcgmt-rotatingWrapper {
+    position:absolute;
+    width:100px;
+    height:100px;
+}
+
+/* CONFIGURACION DE LOS DATE*/
+.jcgmt-digital,
+.jcgmt-date {
+    font-weight:bold;
+    font-size: 25px;
+    color: #444444;
+    text-align:center;
+    margin-left:8px;
+}
